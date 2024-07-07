@@ -1,0 +1,120 @@
+
+
+/* CSS Boilerplate Code */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h1{
+    color: #973131;
+}
+p{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* Header */
+
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A5319;
+    padding: 0.5%;
+}
+header .nav-logo{
+    color: white;
+    font-weight: bolder;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: normal;
+}
+header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
+    margin: 10px;
+}
+
+header a>button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: #990033;
+    font-size: large;
+    cursor: pointer;
+}
+
+header a>button:hover{
+    background-color: #f5588c;
+}
+
+
+/* Main */
+
+/* hero section */
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: "hero-item1 hero-item1 hero-item2"
+                        "hero-item3 hero-item4 hero-item4";
+    
+    padding-top: 50px;
+}
+
+.hero-item1{
+    grid-area: hero-item1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 30px;
+    font-size: 2rem;
+
+}
+
+
+.hero.item2{
+    grid-area: hero-item2;
+
+}
+.hero-item3{
+    grid-area: hero-item3;
+    background-color: rgb(235,228,158);
+
+}
+
+.hero-item4{
+    grid-area: hero-item4;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235,228,158);
+    padding-top: 30px;
+
+}
+
+/* about us Section */
+.programs{
+    background-image: url(assets/img/sunsetyoga.png);
+}
+
+
+
+
+
+/* Footer */
