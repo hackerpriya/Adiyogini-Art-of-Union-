@@ -12,12 +12,17 @@
 
 main h1{
     color: #973131;
+    text-shadow: 1px 1px 4px #660909;
 }
 p{
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: italic;
 }
+
+/* Scroller Type */
+
+
 
 
 /* Header */
@@ -99,8 +104,14 @@ header a>button:hover{
 
 .hero-item1>img{
     /* margin-right:100px ; */
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
+}
+
+.hero-item1>p{
+    width: 45%;
+    text-align: center;
+    font-size: 2rem;
 }
 
 
@@ -114,7 +125,7 @@ header a>button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     
 
 
@@ -130,9 +141,13 @@ header a>button:hover{
     align-items: center;
     justify-content: center;
     background-color: #66cc991e;
-    padding: 20px;
+    padding: 10px;
 
 }
+
+/* @media screen and max{
+    
+} */
 
 /* about us Section */
 
