@@ -48,15 +48,18 @@ header a>button{
     border: none;
     border-radius: 10px;
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: bolder;
-    color: whitesmoke;
-    background-color: #990033;
+    color: rgba(9, 90, 47, 0.795);
+    background-color: whitesmoke;
     font-size: large;
     cursor: pointer;
 }
 
 header a>button:hover{
-    background-color: #f5588c;
+    background-color: #989798;
+    color: whitesmoke;
 }
 
 
@@ -99,9 +102,16 @@ header a>button:hover{
 }
 .hero-item3{
     grid-area: hero-item3;
-    background-color: rgb(235,228,158);
+    background-color: #66cc991e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+
 
 }
+
 
 .hero-item4{
     grid-area: hero-item4;
@@ -111,8 +121,8 @@ header a>button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(235,228,158);
-    padding-top: 30px;
+    background-color: #66cc991e;
+    padding: 20px;
 
 }
 
