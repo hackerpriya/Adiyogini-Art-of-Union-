@@ -21,6 +21,10 @@ p{
 
 
 /* Header */
+header{
+    position: sticky;
+    top: 0;
+}
 
 header>nav{
     display: flex;
@@ -42,6 +46,10 @@ header a{
     font-weight: bolder;
     color: aliceblue;
     margin: 10px;
+}
+
+header a:hover{
+    color: #d0c7d0;
 }
 
 header a>button{
