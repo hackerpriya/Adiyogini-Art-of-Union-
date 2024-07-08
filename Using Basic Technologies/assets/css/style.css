@@ -67,10 +67,10 @@ header a>button:hover{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    grid-template-areas: "hero-item1 hero-item1 hero-item2"
+    grid-template-areas: "hero-item1 hero-item1 hero-item1"
                         "hero-item3 hero-item4 hero-item4";
-    
-    padding-top: 50px;
+    /* padding-top: 50px; */
+
 }
 
 .hero-item1{
@@ -78,10 +78,18 @@ header a>button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    padding-left: 30px;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
     font-size: 2rem;
+    gap: 15px;
 
+}
+
+.hero-item1>img{
+    /* margin-right:100px ; */
+    height: 500px;
+    width: 500px;
 }
 
 
