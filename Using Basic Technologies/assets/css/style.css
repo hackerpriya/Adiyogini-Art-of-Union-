@@ -13,7 +13,7 @@
 /* Extra Important CSS Code */
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 main h1{
@@ -178,6 +178,7 @@ header a>button:hover{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    
 
 }
 
@@ -211,12 +212,13 @@ header a>button:hover{
     }
     .mission-item1{
         display: flex;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
+        /* width: 75%; */
     }
     .mission-item1>img{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         /* padding: 0; */
         
         /* margin-bottom: 0; */
@@ -253,8 +255,3 @@ header a>button:hover{
 
 
 
-/* Extra Important CSS Code */
-body{
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
