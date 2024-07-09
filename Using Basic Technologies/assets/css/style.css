@@ -146,8 +146,8 @@ header a>button:hover{
     }
     .landing-item1>img{
         padding: 50px;
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         text-align: center;
     }
     .landing-item1>h1{
@@ -190,6 +190,7 @@ header a>button:hover{
     font-size: 1.5rem;
     padding: 20px;
 }
+
 .mission-item2>p{
     text-align: center;
     font-size: 1.5rem;
@@ -198,11 +199,12 @@ header a>button:hover{
 @media only screen and (max-width:780px){
     .mission-section{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 0.5fr 1fr;
         grid-template-areas: "mission-item1"
                             "mission-item2"; 
         height: fit-content;
         width: 100vw;
+        /* height: 100vh; */
         gap: 0;
         font-size: 0.5rem;
     }
@@ -218,16 +220,17 @@ header a>button:hover{
         
         /* margin-bottom: 0; */
     }
-    .mission-section>p{
-        font-size: 0.1em;
-        width: 70%;
+    .mission-section p{
+        /* font-size: 0.1em; */
+        width: 80%;
         /* padding: 20px; */
     }
     .mission-item2{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
+        padding-right: 20px;
     }
 
 }
