@@ -146,8 +146,8 @@ header a>button:hover{
     }
     .landing-item1>img{
         padding: 50px;
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
         text-align: center;
     }
     .landing-item1>h1{
@@ -212,13 +212,16 @@ header a>button:hover{
         align-items: center;
     }
     .mission-item1>img{
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
+        /* padding: 0; */
         
         /* margin-bottom: 0; */
     }
     .mission-section>p{
-        width: 75%;
+        font-size: 0.1em;
+        width: 70%;
+        /* padding: 20px; */
     }
     .mission-item2{
         display: flex;
