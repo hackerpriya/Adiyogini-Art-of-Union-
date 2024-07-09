@@ -13,6 +13,7 @@
 /* Extra Important CSS Code */
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 main h1{
@@ -247,3 +248,13 @@ header a>button:hover{
 
 
 /* Footer */
+
+
+
+
+
+/* Extra Important CSS Code */
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
