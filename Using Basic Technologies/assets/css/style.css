@@ -201,7 +201,7 @@ header a>button:hover{
 @media only screen and (max-width:780px){
     .mission-section{
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr;
+        grid-template-rows: 0.3fr 1fr;
         grid-template-areas: "mission-item1"
                             "mission-item2"; 
         height: fit-content;
@@ -212,7 +212,7 @@ header a>button:hover{
     }
     .mission-item1{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         /* width: 75%; */
     }
