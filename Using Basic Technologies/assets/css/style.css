@@ -5,14 +5,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "PT Sans", sans-serif;
+    /* font-family: "PT Sans", sans-serif; */
     font-weight: 400;
     font-style: normal;
 }
 
 /* Extra Important CSS Code */
 body{
+    background-image: url(assets\img\red-leaf.png);
+    background-size: cover;
+    background-position: center;
     overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /* overflow-y: hidden; */
 }
 
@@ -56,18 +60,32 @@ header .nav-logo{
     font-size: larger;
     font-style: normal;
 }
-header a{
+
+header .nav-links>ul{
+    display: flex;
+    
+}
+header .nav-links li{
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: #f7eaf7;
+
+}
+
+header .nav-links a{
     text-decoration: none;
     font-weight: bolder;
     color: aliceblue;
     margin: 10px;
 }
 
-header a:hover{
+header .nav-links a:hover{
     color: #d0c7d0;
 }
 
-header a>button{
+header nav a>button{
     border: none;
     border-radius: 10px;
     padding: 5px;
@@ -85,16 +103,26 @@ header a>button:hover{
     color: whitesmoke;
 }
 
+header .active, header li:hover{
+    background-color: #259923b5 ;
+    border-radius: 10px;
+}
+
+
 @media only screen and (max-width : 780px){
     header>nav{
-        height: 350px;
+        height: fit-content;
         flex-direction: column;
         
     }
-    header .nav-links{
+    header .nav-links>ul{
         display: flex;
         flex-direction: column;
+        
     }
+    /* header .nav-links>ul{
+        flex-direction: column;
+    } */
 }
 
 
@@ -140,11 +168,13 @@ header a>button:hover{
 @media only screen and (max-width :780px){
     .landing-section{
         grid-template-columns: 1fr;
+        /* grid-template-rows: 0.2fr 1fr; */
         grid-area: landing-item1;
     }
     .landing-section p{
         width:90%;
     }
+
     .landing-item1>img{
         padding: 50px;
         height: 300px;
